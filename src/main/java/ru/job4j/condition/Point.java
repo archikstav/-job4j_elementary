@@ -13,13 +13,10 @@ package ru.job4j.condition;
 
         public static void main(String[] args) {
             double result = Point.distance(0, 0, 2, 0);
-            System.out.println("result (0, 0) to (2, 0) " + result);
             double result2 = Point.distance(0, 0, 5, 5);
-            System.out.println("result (0, 0) to (5, 5) " + result);
             double result3 = Point.distance(4, 2, 0, 7);
-            System.out.println("result (4, 2) to (0, 7) " + result);
             double result4 = Point.distance(1, 3, 6, 8);
-            System.out.println("result (1, 3) to (6, 8) " + result);
+            System.out.println("result (1, 3) to (6, 8), (0, 0) to (2, 0), (0, 0) to (5, 5), (4, 2) to (0, 7)" + result);
 
         }
 }
